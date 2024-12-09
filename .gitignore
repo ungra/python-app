@@ -1,0 +1,48 @@
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 환경 파일
+.env
+.env.*
+
+# Python 환경 관리 도구
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# virtual environments
+venv/
+env/
+.venv/
+
+# IDE 설정 파일
+.vscode/
+.idea/
+
+# 운영체제별 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# 빌드 및 테스트 관련 파일
+build/
+dist/
+*.egg-info/
+.eggs/
+.coverage
+.cache/
+nosetests.xml
+pytest_cache/
+
+# 로그 파일
+*.log
+logs/
+
+# Docker 관련 파일
+docker-compose.override.yml
